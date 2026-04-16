@@ -2,7 +2,7 @@
 Comparative Study of Image Classification Using Decision Tree,
 Naive Bayes, and Feedforward Neural Networks
 
-Author: Joud Thaher, Marah Hamarsheh
+Done by: Joud Thaher, Marah Hamarsheh
 Date: 22/6/2025
 """
 
