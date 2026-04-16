@@ -2,20 +2,20 @@
 
 Comparing **Naive Bayes**, **Decision Tree**, and **Neural Network (MLP)** on a 3-class subset of the Fashion-MNIST dataset.
 
-> Done by: Joud Thaher Â· Marah Hamarsheh â€” June 2025
+> Done by: Joud Thaher · Marah Hamarsheh — June 2025
 
 ---
 
 ## Project Structure
 
 ```
-â”œâ”€â”€ fashion_mnist_prep.py    # Download & prepare the dataset
-â”œâ”€â”€ main_fashion.py          # Train & evaluate all three models
-â”œâ”€â”€ visualize_dataset.py     # Visualize dataset samples & stats
-â”œâ”€â”€ decision_tree.png        # Saved decision tree plot
-â””â”€â”€ docs/
-    â”œâ”€â”€ project_description.pdf  # Original assignment brief
-    â””â”€â”€ project_report.pdf       # Full report & findings
+├── fashion_mnist_prep.py    # Download & prepare the dataset
+├── main_fashion.py          # Train & evaluate all three models
+├── visualize_dataset.py     # Visualize dataset samples & stats
+├── decision_tree.png        # Saved decision tree plot
+└── docs/
+    ├── project_description.pdf  # Original assignment brief
+    └── project_report.pdf       # Full report & findings
 ```
 
 ---
@@ -54,16 +54,16 @@ python main_fashion.py
 |---|---|
 | Naive Bayes | GaussianNB, `var_smoothing=1e-9` |
 | Decision Tree | `max_depth=5`, `min_samples_split=5` |
-| Neural Network | MLP (128â†’64), ReLU, Adam, early stopping |
+| Neural Network | MLP (128→64), ReLU, Adam, early stopping |
 
 ---
 
 ## Dataset
 
 - **Source:** Fashion-MNIST via `tf.keras.datasets`
-- **Classes:** T-shirt/top Â· Trouser Â· Sandal
-- **Split:** 500 training samples Â· 300 test samples (balanced)
-- **Input:** 28Ã—28 grayscale â†’ 784 flattened features, normalized to [0, 1]
+- **Classes:** T-shirt/top · Trouser · Sandal
+- **Split:** 500 training samples · 300 test samples (balanced)
+- **Input:** 28×28 grayscale → 784 flattened features, normalized to [0, 1]
 
 ---
 
