@@ -10,5 +10,7 @@ Preprocessed images into feature vectors and compared model performance using ac
 
 Python
 Scikit-learn (Naive Bayes, Decision Tree, MLP)
+
 TensorFlow/Keras (dataset loading)
+
 NumPy & Matplotlib
